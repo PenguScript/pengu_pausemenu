@@ -8,7 +8,6 @@ version '1.0.0'
 lua54 'yes'
 
 shared_scripts {
-    '@ox_lib/init.lua',
     'config.lua',
 }
 
@@ -23,8 +22,3 @@ files {
   'html/images/*'
 }
 
-escrow_ignore {
-    'config.lua',
-    'fxmanifest.lua'
-
-}
