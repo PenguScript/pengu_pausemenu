@@ -7,6 +7,13 @@
 
 ---
 
+## 📸 Preview
+<p align="center">
+  <img src="preview.png" alt="Pause Menu Preview" width="600">
+</p>
+
+---
+
 A **plug-and-play pause menu** for FiveM.  
 Just press **`ESC`** and the custom menu will pop up instantly.  
 
