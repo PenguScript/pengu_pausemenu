@@ -68,9 +68,4 @@ See the [LICENSE](LICENSE) file for details.
 
 * 🐧 GitHub: [PenguScript](https://github.com/PenguScript)
 * ☕ Ko-fi: [ko-fi.com/penguscripts](https://ko-fi.com/penguscripts)
-* 💬 Discord: (link coming soon)
-
-```
-
-Would you like me to also add a **preview screenshot/gif section** (like “📸 Preview”) so people can *see the pause menu in action* right on the README? That usually boosts interest a lot.
-```
+* 💬 Discord: [discord.gg/AS7U5GK4TE](https://discord.gg/AS7U5GK4TE)
