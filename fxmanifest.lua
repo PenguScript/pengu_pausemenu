@@ -3,7 +3,7 @@ game 'gta5'
 
 description 'pengu_pausemenu'
 Author "PenguScripts"
-version '1.0.1'
+version '1.0.2'
 
 lua54 'yes'
 
@@ -21,5 +21,6 @@ files {
   'html/*',
   'html/images/*'
 }
+
 
 
