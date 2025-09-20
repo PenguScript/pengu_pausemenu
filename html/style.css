@@ -8,7 +8,7 @@ body * {
 #container {
     width: 100vw;
     height: 100vh;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease-in-out;
     justify-content: space-between;
 }
@@ -56,8 +56,7 @@ body * {
     width: 35vh;
     height: 10vh;
     font-size: 5.5vh;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: nowrap;
     background-color: #01735C;
     overflow: none;
     text-align: center;   
@@ -134,4 +133,14 @@ body * {
 .small-img {
     height: 4vh;
     width: 4vh;
+}
+
+#sidebar div sup {
+    font-size: 0.5em;
+    margin-left: 10px;
+    height: 50px;
+    vertical-align: super;
+    font-weight: normal;
+    color: white;
+    font-family: sans-serif;
 }
