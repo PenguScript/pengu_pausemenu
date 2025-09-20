@@ -4,6 +4,17 @@ const uiElements = {};
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("container");
 
+    // Process menu items to add superscript styling for road sign extensions
+    const menuItems = document.querySelectorAll('#sidebar div[onclick]');
+    menuItems.forEach(item => {
+        const text = item.textContent;
+        if (text.includes('^')) {
+            const parts = text.split('^');
+            if (parts.length === 2) {
+                item.innerHTML = parts[0] + '<sup>' + parts[1] + '</sup>';
+            }
+        }
+    });
 
     window.addEventListener('message', (event) => {
         if (event.data.type === "show") {
